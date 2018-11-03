@@ -1,0 +1,10 @@
+﻿footer {
+    position:relative;
+    bottom: 0%;
+    margin-left:0%;
+    padding: 0.5%;
+    clear: both;
+    text-align: center;
+    font: 60% '맑은 고딕';
+    color: grey;
+}

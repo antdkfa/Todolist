@@ -1,0 +1,42 @@
+﻿@font-face {
+    font-family: '주아';
+    src: url(BMJUA_ttf.woff);
+}
+@font-face {
+    font-family: '주아';
+    src: url(BMJUA_ttf.eot);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top:1%;
+    padding-bottom:1%;
+    border-bottom: 1px solid gainsboro;
+}
+
+    nav ul li {
+        display: inline;
+        padding:1%;
+        font-size: 130%;
+        font-weight: normal;
+        font-family: '주아';
+        line-height: 40px;
+    }
+
+nav a:link {
+    text-decoration: none;
+    color: #5c5959;
+    padding:1% 2%;
+}
+
+nav a:visited {
+    color: #5c5959;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #e3f4fd;
+    text-shadow:1px 1px 3px #cdcaca;
+    letter-spacing:1px;
+}
