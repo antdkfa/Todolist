@@ -1,0 +1,28 @@
+mysql -u root -p
+비밀번호
+create database webdb;
+use webdb;
+create table bbs(
+	seqNo int(11) not null auto_increment,
+	title varchar(50),
+	content varchar(50),
+	date Date,
+	primary key(seqNo)
+);
+
+
+create table Completebbs(
+	seqNo int(11) not null auto_increment,
+	title varchar(50),
+	content varchar(50),
+	date Date,
+	primary key(seqNo)
+);
+
+create table Expiredbbs(
+	seqNo int(11) not null auto_increment,
+	title varchar(50),
+	content varchar(50),
+	date Date,
+	primary key(seqNo)
+);
