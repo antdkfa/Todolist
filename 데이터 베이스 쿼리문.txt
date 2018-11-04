@@ -1,5 +1,5 @@
 mysql -u root -p
-비밀번호
+student
 create database webdb;
 use webdb;
 create table bbs(
